@@ -2,12 +2,12 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, BoxProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Form/Box',
+  title: 'Surfaces/Box',
   component: Box,
   args: {
     children: (
       <>
-        <p>Testando o elemento Box</p>
+        <span>Testando o elemento Box</span>
       </>
     ),
   },
