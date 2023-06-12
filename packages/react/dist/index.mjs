@@ -213,7 +213,7 @@ var AvatarFallback = styled(Avatar.Fallback, {
 import { jsx, jsxs } from "react/jsx-runtime";
 function Avatar2(props) {
   return /* @__PURE__ */ jsxs(AvatarContainer, { children: [
-    /* @__PURE__ */ jsx(AvatarImage, {}),
+    /* @__PURE__ */ jsx(AvatarImage, __spreadValues({}, props)),
     /* @__PURE__ */ jsx(AvatarFallback, { delayMs: 600, children: /* @__PURE__ */ jsx(User, {}) })
   ] });
 }
